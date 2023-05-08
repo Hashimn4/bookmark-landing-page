@@ -85,3 +85,28 @@ body {
     gap: 40px;
     align-items: center;
 }
+
+.hero {
+    width: 100%;
+}
+
+.hero-image {
+    width: 100%;
+    padding: 0px;
+    position: relative;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.object {
+    width: 80%;
+    position: absolute;
+    height: 210px;
+    background-color: black;
+    top: 22%;
+    right: 0;
+    border-bottom-left-radius: 30%;
+    z-index: -1;
+}
