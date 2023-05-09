@@ -324,3 +324,141 @@ body {
     border-radius: 8px;
     /* margin-top: 10px; */
 }
+
+.faq {
+    width: 85%;
+    margin: 30px auto 0 auto;
+    padding-bottom: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.faq-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.faq-info {
+    color: hsl(229, 8%, 60%);
+    line-height: 1.6rem;
+    text-align: center;
+}
+
+.faq-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.faq-section__qa {
+    border-bottom: 1px solid hsl(229, 8%, 60%, 0.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 20px 0;
+    position: relative;
+}
+
+.qa-question {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.qa-answer {
+    display: none;
+    position: absolute;
+    top: 30px;
+}
+
+.faq-btn {
+    text-align: center;
+    width: fit-content;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    margin: 55px auto 0 auto;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.signup-section {
+    width: 100%;
+    background-color: hsl(231, 69%, 60%);
+}
+
+.signup-container {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+.signup-stats {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.signup-message {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.signup-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signup-input input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 15px 0 15px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+}
+
+.signup-btn {
+    background-color: hsl(0, 94%, 66%);
+    border-radius: 5px;
+    padding: 15px  0;
+}
+
+.footer-section {
+    width: 100%;
+    background-color: hsl(229, 31%, 21%);
+    color: white;
+    padding: 45px 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-logo {
+    margin-bottom: 40px;
+}
+
+.footer-links {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 40px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
